@@ -14,6 +14,7 @@ import InquiryCard from './component/InquiryCard';
 import InquiryList from './view/Inquiry/List';
 import InquiryDetail from './view/Inquiry/Detail';
 import InquiryWrite from './view/Inquiry/Write';
+import MyPage from './view/MyPage';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route path='detail/:inquiryNumber' element={<InquiryDetail />} />
           <Route path='write' element={<InquiryWrite />} />
         </Route>
+        <Route path='/my-page' element={<MyPage />} />
       </Routes>
     </>
     
