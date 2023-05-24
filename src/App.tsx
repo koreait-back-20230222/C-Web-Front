@@ -10,7 +10,6 @@ import UserInfo from './view/User/Info';
 import BoardList from './view/Board/List';
 import BoardDetail from './view/Board/Detail';
 import BoardWrite from './view/Board/Write';
-import InquiryCard from './component/InquiryCard';
 import InquiryList from './view/Inquiry/List';
 import InquiryDetail from './view/Inquiry/Detail';
 import InquiryWrite from './view/Inquiry/Write';
